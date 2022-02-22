@@ -111,8 +111,8 @@ public class StringInterpolationService : IStringInterpolationService
 
     public string Number11()
     {
-        //double squaredNumber = Math.Sqrt(2);
-        //string answer = squaredNumber.ToString("X");
+        double squareNumber = Math.Sqrt(2);
+        //string answer = squareNumber.ToString("X");
 
         int number = 1;
         string answer = number.ToString("X");
